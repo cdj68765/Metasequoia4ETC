@@ -1,12 +1,8 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Metasequoia_4_RegNumber_UI
@@ -32,7 +28,7 @@ namespace Metasequoia_4_RegNumber_UI
                     t3.Add(new Dic(x, temp, Convert.ToChar(x)));
                 }
             }
-        ret:
+            ret:
             string id = "12345E-6789AB-CDEFG";
             string[] CE = id.Select((x => x.ToString())).ToArray();
             for (int i = 0; i < id.Length; i++)
@@ -193,9 +189,9 @@ namespace Metasequoia_4_RegNumber_UI
                     a2 = a2 + a1[v2];
                     goto LABEL_16;
                 }
-            LABEL_14:
+                LABEL_14:
                 a2 = a2 + ((v6 + v4 - 1) % 0x21u).ToString();
-            LABEL_16:
+                LABEL_16:
                 v6 += 7;
                 ++v2;
             }
