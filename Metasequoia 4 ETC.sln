@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metasequoia 4 GenRegNum", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metasequoia 4 RegNumber UI", "Metasequoia 4 RegNumber UI\Metasequoia 4 RegNumber UI.csproj", "{F9F5DE9B-DBA6-4A2F-9B27-66C7286337B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE多功能信息处理插件", "..\PEPlugin-Git\PE多功能信息处理插件.csproj", "{2FD8FE11-52F8-41D3-80A5-39F2E22641B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,14 @@ Global
 		{F9F5DE9B-DBA6-4A2F-9B27-66C7286337B4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F9F5DE9B-DBA6-4A2F-9B27-66C7286337B4}.Release|x86.ActiveCfg = Release|Any CPU
 		{F9F5DE9B-DBA6-4A2F-9B27-66C7286337B4}.Release|x86.Build.0 = Release|Any CPU
+		{2FD8FE11-52F8-41D3-80A5-39F2E22641B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD8FE11-52F8-41D3-80A5-39F2E22641B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD8FE11-52F8-41D3-80A5-39F2E22641B2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2FD8FE11-52F8-41D3-80A5-39F2E22641B2}.Debug|x86.Build.0 = Debug|Any CPU
+		{2FD8FE11-52F8-41D3-80A5-39F2E22641B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD8FE11-52F8-41D3-80A5-39F2E22641B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD8FE11-52F8-41D3-80A5-39F2E22641B2}.Release|x86.ActiveCfg = Release|Any CPU
+		{2FD8FE11-52F8-41D3-80A5-39F2E22641B2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
